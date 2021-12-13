@@ -7,6 +7,7 @@ import java.util.HashSet;
  */
 public class CountPoints5952 {
     /**
+     * CountPoints() 统计有三种颜色的杠数量
      * 实现思路：
      * 1.创建 10个 HashSet 存储 10根杠 (0-9)
      * 2.遍历rings 更新10个 HashSet 的值
@@ -14,7 +15,7 @@ public class CountPoints5952 {
      * 
      * @param rings 输入的字符串
      * @return count 返回有三种颜色的杠的个数
-     *         CountPoints() 统计有三种颜色的杠数量
+     * 
      */
     public int CountPoints(String rings) {
         // 为每条杠创建一个 HashSet
