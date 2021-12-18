@@ -4,7 +4,7 @@ import java.util.HashSet;
 
 public class CountPoints5952 {
   /** 解题思路： 1. 初始化10条杆子，用9个 HashSet 2. 遍历rings，更新9个 HashSet 的值 2. 遍历9个 HashSet，统计有三种颜色的杠子个数 */
-  public int countPoles(String rings) {
+  public int countPoints(String rings) {
 
     // 1.初始化10条杆子
     int poleNum = 10;
