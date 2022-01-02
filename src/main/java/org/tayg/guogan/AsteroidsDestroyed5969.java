@@ -7,7 +7,7 @@ import java.util.Arrays;
  * 解题思路：
  * 1. 把行星按质量从小到大进行排列
  * 2. 遍历小行星数组
- * 3.
+ * 3. 比较大行星与小行星的质量，如果大于则加上小星星的质量，小于则返回false
  */
 
 public class AsteroidsDestroyed5969 {
